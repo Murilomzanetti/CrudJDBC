@@ -18,3 +18,20 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 # CrudJDBC
 # CrudJDBC
+#Banco de Dados
+CREATE DATABASE loja;
+
+USE loja;
+
+CREATE TABLE produtos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    preco DECIMAL(10,2)
+);
+CREATE TABLE categorias (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    ativo BOOLEAN
+);
+
+
