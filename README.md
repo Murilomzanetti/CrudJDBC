@@ -33,5 +33,7 @@ CREATE TABLE categorias (
     nome VARCHAR(100),
     ativo BOOLEAN
 );
+![alt text](<Captura de tela 2025-08-21 091015.png>)
+![alt text](<Captura de tela 2025-08-21 091030.png>)
 
 
